@@ -1,0 +1,71 @@
+.header-countainer {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+}
+.header-countainer .profile-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.header-countainer .profile-box .profile-box-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-countainer
+  .profile-box
+  .profile-box-image
+  .profile-image-route
+  .profile-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 0.8rem solid #da0037;
+  box-shadow: 0 0 1rem #da0037;
+  transition: box-shadow 0.3s;
+}
+.header-countainer
+  .profile-box
+  .profile-box-image
+  .profile-image-route
+  .profile-image:hover {
+  box-shadow: 0 0 2rem #da0037;
+}
+.header-countainer .profile-box .profile-box-description {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-countainer
+  .profile-box
+  .profile-box-description
+  .profile-box-inner-description {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #ededed;
+  font-size: 1.2rem;
+}
+
+.header-countainer
+  .profile-box
+  .profile-box-description
+  .profile-box-inner-description
+  .profile-title {
+  font-size: 4rem;
+}

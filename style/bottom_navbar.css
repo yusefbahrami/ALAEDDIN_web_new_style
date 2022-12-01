@@ -10,7 +10,8 @@
 .nav-bar {
   width: 50%;
   height: 100%;
-  background-color: #444444;
+  background-color: #171717;
+  box-shadow: 0 0 0.2rem #444444;
   border-radius: 1rem;
 }
 .nav-bar ul {
