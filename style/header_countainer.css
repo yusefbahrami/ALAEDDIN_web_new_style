@@ -99,7 +99,7 @@
     .profile-box-image
     .profile-image-route
     .profile-image {
-    width: 32rem;
+    width: 30rem;
   }
   .header-countainer
     .profile-box
@@ -117,13 +117,6 @@
   }
 }
 @media screen and (max-width: 1240px) {
-  .header-countainer
-    .profile-box
-    .profile-box-image
-    .profile-image-route
-    .profile-image {
-    width: 30rem;
-  }
   .header-countainer
     .profile-box
     .profile-box-description
