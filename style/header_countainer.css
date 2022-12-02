@@ -66,7 +66,7 @@
   align-items: flex-start;
   color: #ededed;
   font-size: 1.2rem;
-  font-family: "Alexandria Thin", Arial, Helvetica, sans-serif;
+  font-family: "Alexandria Thin";
 }
 
 .header-countainer
@@ -75,7 +75,7 @@
   .profile-box-inner-description
   .profile-title {
   font-size: 4rem;
-  font-family: "Alexandria Thin", Arial, Helvetica, sans-serif;
+  font-family: "Alexandria Thin";
   color: #da0037;
 }
 @media screen and (max-width: 1660px) {
