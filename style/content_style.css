@@ -18,7 +18,6 @@
   gap: 2rem;
   /* justify-content: space-evenly; */
   font-size: 1.2rem;
-  
 }
 hr {
   border: 1px solid #da0037;
@@ -29,10 +28,10 @@ hr {
 .about-description .about-description-title {
   font-size: 4rem;
   color: #da0037;
-  font-family: "Alexandria Thin";
+  font-family: "Alexandria Thin" !important;
 }
-.about-description .about-description-text{
-  font-family: "Vazir";
+.about-description .about-description-text {
+  font-family: "Vazir" !important;
   letter-spacing: 1px;
 }
 /* about-description end */
