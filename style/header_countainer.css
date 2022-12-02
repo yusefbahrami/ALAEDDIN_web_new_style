@@ -139,20 +139,7 @@
     font-size: 4rem;
   }
 }
-@media screen and (max-width: 1000px) {
-  .header-countainer .profile-box {
-    flex-direction: column;
-    gap: 1rem;
-    margin: 2rem 0;
-  }
-  .header-countainer
-    .profile-box
-    .profile-box-description
-    .profile-box-inner-description {
-    align-items: center;
-    text-align: center;
-  }
-
+@media screen and (max-width: 930px) {
   .header-countainer
     .profile-box
     .profile-box-image
@@ -175,7 +162,78 @@
     font-size: 3rem;
   }
 }
+@media screen and (max-width: 764px) {
+  .header-countainer
+    .profile-box
+    .profile-box-description
+    .profile-box-inner-description {
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-countainer
+    .profile-box
+    .profile-box-image
+    .profile-image-route
+    .profile-image {
+    width: 22rem;
+  }
+  .header-countainer
+    .profile-box
+    .profile-box-description
+    .profile-box-inner-description {
+    font-size: 1rem;
+  }
+
+  .header-countainer
+    .profile-box
+    .profile-box-description
+    .profile-box-inner-description
+    .profile-title {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 764px) {
+  .header-countainer
+    .profile-box
+    .profile-box-image
+    .profile-image-route
+    .profile-image {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .header-countainer .profile-box {
+    flex-direction: column;
+  }
+  .header-countainer
+    .profile-box
+    .profile-box-image
+    .profile-image-route
+    .profile-image {
+    width: 20rem;
+  }
+  .header-countainer
+    .profile-box
+    .profile-box-description
+    .profile-box-inner-description {
+    font-size: 1rem;
+  }
+
+  .header-countainer
+    .profile-box
+    .profile-box-description
+    .profile-box-inner-description
+    .profile-title {
+    font-size: 3rem;
+  }
+}
 @media screen and (max-width: 425px) {
+  .header-countainer .profile-box {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
   .header-countainer
     .profile-box
     .profile-box-image
@@ -234,7 +292,7 @@
   }
 }
 /* height responsive */
-@media screen and (max-height: 510px) {
+/* @media screen and (max-height: 510px) {
   .header-countainer
     .profile-box
     .profile-box-image
@@ -256,4 +314,4 @@
     .profile-title {
     font-size: 2rem;
   }
-}
+} */
