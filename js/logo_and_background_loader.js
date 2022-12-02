@@ -6,7 +6,7 @@ window.addEventListener("load", async () => {
   if (result.status == 200) {
     imgProfile.setAttribute("src", result.url);
     imgProfileRoute.setAttribute("href", result.url);
-    main.style.background = `linear-gradient(rgba(68, 68, 68, 0%),rgba(23, 23, 23, 100%)),
+    main.style.background = `linear-gradient(rgba(68, 68, 68, 20%),rgba(23, 23, 23, 100%)),
     url(${result.url}) center center/cover fixed`;
   }
 });
