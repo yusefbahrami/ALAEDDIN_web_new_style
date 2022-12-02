@@ -1,6 +1,10 @@
 @font-face {
   font-family: "Alexandria Thin";
-  src: url("./assets/fonts/Alexandria-VariableFont_wght.ttf") format(".woff");
+  src: url("./assets/fonts/Alexandria-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("./assets/fonts/Vazir.woff") format("woff");
 }
 .header-countainer {
   width: 100%;
@@ -72,7 +76,6 @@
   .profile-title {
   font-size: 4rem;
   font-family: "Alexandria Thin", Arial, Helvetica, sans-serif;
-  font-weight: 900;
   color: #da0037;
 }
 @media screen and (max-width: 1660px) {

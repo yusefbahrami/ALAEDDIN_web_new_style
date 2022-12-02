@@ -1,6 +1,9 @@
 @font-face {
-  font-family: "Alexandria Thin, Vazir";
+  font-family: "Alexandria Thin";
   src: url("./assets/fonts/Alexandria-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Vazir";
   src: url("./assets/fonts/Vazir.woff") format("woff");
 }
 .content-countainer {
