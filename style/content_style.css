@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Alexandria Thin, Vazir";
   src: url("./assets/fonts/Alexandria-VariableFont_wght.ttf");
-  src: url("./assets/fonts/Vazir.woff");
+  src: url("./assets/fonts/Vazir.woff") format("woff");
 }
 .content-countainer {
   background-color: #171717;
@@ -28,10 +28,10 @@ hr {
 .about-description .about-description-title {
   font-size: 4rem;
   color: #da0037;
-  font-family: "Alexandria Thin" !important;
+  font-family: "Alexandria Thin", Arial, Helvetica, sans-serif !important;
 }
 .about-description .about-description-text {
-  font-family: "Vazir" !important;
+  font-family: "Vazir", Arial, Helvetica, sans-serif !important;
   letter-spacing: 1px;
 }
 /* about-description end */
