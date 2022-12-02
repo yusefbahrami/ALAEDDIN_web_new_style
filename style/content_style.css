@@ -6,6 +6,10 @@
   font-family: "Vazir";
   src: url("./assets/fonts/Vazir.woff") format("woff");
 }
+@font-face {
+  font-family: "Syncopate";
+  src: url("./assets/fonts/Syncopate-Regular.ttf") format("woff");
+}
 .content-countainer {
   background-color: #171717;
   color: #ededed;
@@ -31,10 +35,10 @@ hr {
 .about-description .about-description-title {
   font-size: 4rem;
   color: #da0037;
-  font-family: "Alexandria Thin", Arial, Helvetica, sans-serif !important;
+  font-family: "Alexandria Thin", "Syncopate", Arial, Helvetica, sans-serif;
 }
 .about-description .about-description-text {
-  font-family: "Vazir", Arial, Helvetica, sans-serif !important;
+  font-family: "Alexandria Thin", "Syncopate", Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
 }
 /* about-description end */
