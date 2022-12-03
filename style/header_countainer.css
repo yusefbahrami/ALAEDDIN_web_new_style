@@ -1,15 +1,5 @@
-@font-face {
-  font-family: "Alexandria Thin";
-  src: url("../assets/fonts/Alexandria-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: "Vazir";
-  src: url("../assets/fonts/Vazir.woff") format("woff");
-}
-@font-face {
-  font-family: "Syncopate";
-  src: url("../assets/fonts/Syncopate-Regular.ttf") format("woff");
-}
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200&display=swap");
+
 .header-countainer {
   width: 100%;
   height: 100%;
@@ -70,8 +60,8 @@
   align-items: flex-start;
   color: #ededed;
   font-size: 1.2rem;
-  font-family: "Alexandria Thin", "Syncopate", Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-family: "Alexandria", sans-serif;
+  font-weight: 100;
 }
 
 .header-countainer
@@ -80,8 +70,8 @@
   .profile-box-inner-description
   .profile-title {
   font-size: 4rem;
-  font-family: "Alexandria Thin", "Syncopate", Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-family: "Alexandria", sans-serif;
+  font-weight: 200;
   color: #da0037;
 }
 @media screen and (max-width: 1660px) {
