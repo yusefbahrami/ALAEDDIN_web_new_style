@@ -1,7 +1,6 @@
 import setImages from "./logo_and_background_loader.js";
 
 const setDarkLight = (e) => {
-  console.log("in dark mode");
   e.preventDefault();
   const darkLightSwitcher = document.getElementById("dark-light");
   const main = document.getElementById("main");
@@ -13,7 +12,8 @@ const setDarkLight = (e) => {
     darkLightSwitcher.setAttribute("class", "uil uil-sun");
     document.body.setAttribute("class", "darkBody");
   }
+
+  // to switch backgound photo
   setImages();
 };
 export default setDarkLight;
-// darkLight.addEventListener("click", );

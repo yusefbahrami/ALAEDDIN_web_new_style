@@ -1,5 +1,4 @@
 const setImages = async () => {
-  console.log("in set image");
   const imgProfile = document.querySelector(".profile-image");
   const imgProfileRoute = document.querySelector(".profile-image-route");
   const main = document.querySelector(".main");
@@ -20,6 +19,4 @@ const setImages = async () => {
   }
 };
 export default setImages;
-// window.addEventListener("load", () => {
-//   setImages();
-// });
+
