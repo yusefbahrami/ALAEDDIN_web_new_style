@@ -74,6 +74,42 @@
   font-weight: 200;
   color: #da0037;
 }
+
+/* Light */
+.main.light
+  .header-countainer
+  .profile-box
+  .profile-box-image
+  .profile-image-route
+  .profile-image {
+  box-shadow: 0 0 2rem #42c2ff;
+}
+.main.light
+  .header-countainer
+  .profile-box
+  .profile-box-image
+  .profile-image-route
+  .profile-image:hover {
+  box-shadow: 0 0 2.8rem #42c2ff;
+}
+.main.light
+  .header-countainer
+  .profile-box
+  .profile-box-description
+  .profile-box-inner-description {
+  color: #42c2ff;
+}
+
+.main.light
+  .header-countainer
+  .profile-box
+  .profile-box-description
+  .profile-box-inner-description
+  .profile-title {
+  color: #42c2ff;
+}
+/* End Light */
+
 @media screen and (max-width: 1660px) {
   .header-countainer
     .profile-box

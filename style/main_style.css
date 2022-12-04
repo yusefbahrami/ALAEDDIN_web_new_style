@@ -25,20 +25,33 @@ body {
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+.darkBody::-webkit-scrollbar-track {
   background: #171717;
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+.darkBody::-webkit-scrollbar-thumb {
   background: #444444;
   border-radius: 1rem;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+.darkBody::-webkit-scrollbar-thumb:hover {
   background: #da0037;
 }
+
+/* Light */
+.lightBody::-webkit-scrollbar-track {
+  background: #effffd;
+}
+.lightBody::-webkit-scrollbar-thumb {
+  background: #85F4FF;
+  border-radius: 1rem;
+}
+.lightBody::-webkit-scrollbar-thumb:hover {
+  background: #42c2ff;
+}
+/* End Light */
 .main {
   width: 100%;
   max-width: 1660px;

@@ -36,3 +36,33 @@ hr {
   line-height: 2rem;
 }
 /* about-description end */
+
+/* Light */
+.main.light .content-countainer {
+  background-color: #effffd;
+  color: #42c2ff;
+  margin-top: 2rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 0 0.2rem #42c2ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  /* justify-content: space-evenly; */
+  font-size: 1.2rem;
+}
+.main.light hr {
+  border: 1px solid #42c2ff;
+  width: 100%;
+}
+
+.main.light .about-description .about-description-title {
+  font-size: 4rem;
+  color: #42c2ff;
+  font-family: "Alexandria", sans-serif;
+  font-weight: 200;
+}
+/* End Light */
