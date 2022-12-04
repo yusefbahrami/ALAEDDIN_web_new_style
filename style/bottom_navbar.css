@@ -34,12 +34,25 @@
 }
 
 .nav-bar .nav-item a:hover {
-  background-color: #171717;
   color: #da0037;
 }
 .nav-bar .nav-item span {
   display: none;
 }
+
+/* Light */
+.main.light .nav-bar {
+  background-color: #effffd;
+  box-shadow: 0 0 0.2rem #42c2ff;
+}
+
+.main.light .nav-bar .nav-item a{
+  color: #85F4FF;
+}
+.main.light .nav-bar .nav-item a:hover{
+  color: #42c2ff;
+}
+/* End Light */
 
 @media screen and (min-width: 1440px) {
   .nav-bar {
