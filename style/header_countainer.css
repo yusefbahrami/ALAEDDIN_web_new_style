@@ -101,7 +101,14 @@
   color: #42c2ff;
   font-weight: 300;
 }
-
+.main.light
+  .header-countainer
+  .profile-box
+  .profile-box-description
+  .profile-box-inner-description
+  .profile-description {
+  text-shadow: 0 0 1rem #ededed;
+}
 .main.light
   .header-countainer
   .profile-box
