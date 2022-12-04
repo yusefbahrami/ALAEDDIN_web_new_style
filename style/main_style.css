@@ -45,7 +45,7 @@ body {
   background: #effffd;
 }
 .lightBody::-webkit-scrollbar-thumb {
-  background: #85F4FF;
+  background: #B8FFF9;
   border-radius: 1rem;
 }
 .lightBody::-webkit-scrollbar-thumb:hover {
