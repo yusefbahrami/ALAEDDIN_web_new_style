@@ -45,13 +45,14 @@ body {
   background: #effffd;
 }
 .lightBody::-webkit-scrollbar-thumb {
-  background: #B8FFF9;
+  background: #b8fff9;
   border-radius: 1rem;
 }
 .lightBody::-webkit-scrollbar-thumb:hover {
   background: #42c2ff;
 }
 /* End Light */
+
 .main {
   width: 100%;
   max-width: 1660px;
@@ -60,4 +61,12 @@ body {
   gap: 1rem;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(rgba(68, 68, 68, 20%), rgba(23, 23, 23, 100%)),
+    url("../assets/IMG_20221024_160602_501.jpg") center center/cover fixed;
 }
+/* main light */
+.main.light {
+  background: linear-gradient(rgba(68, 68, 68, 20%), rgba(239, 255, 253, 100%)),
+    url("../assets/yusef.jpg") center center/cover fixed;
+}
+/* end main light */
