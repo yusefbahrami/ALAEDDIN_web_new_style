@@ -12,8 +12,13 @@ body {
   width: 100%;
   max-width: 1660px;
   height: 100%;
-  background-color: #171717;
   scroll-behavior: smooth;
+}
+.darkBody {
+  background-color: #171717;
+}
+.lightBody {
+  background-color: #effffd;
 }
 ::selection {
   background-color: #da0037;
