@@ -54,3 +54,15 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
+
+/* light */
+.main.light .skill-description {
+  box-shadow: 0 0 0.2rem #42c2ff;
+}
+.main.light .skill-route, .main.light .skill-description-title .uil{
+    color: #42c2ff;
+}
+.main.light .skill-description-title{
+  border-bottom: 1px solid #42c2ff;
+}
+/* end light */
