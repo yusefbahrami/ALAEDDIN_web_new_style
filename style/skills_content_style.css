@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap");
+
+.skills-content {
+  width: 100%;
+  /* height: 100%; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+.skill-description {
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #da0037;
+  width: 100%;
+  height: 20rem;
+}
+.skill-route {
+  color: #ededed;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.skill-description-title {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  border-bottom: 1px solid #da0037;
+}
+.skill-description-title .uil {
+  font-size: 4rem;
+  color: #da0037;
+}
+.skill-description-title .skill-description-inner-title {
+  font-size: 3rem;
+  font-family: "Alexandria", sans-serif;
+  font-weight: 200;
+}
+.skill-description-text {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  overflow-y: auto;
+}
+.skill-description-inner-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
