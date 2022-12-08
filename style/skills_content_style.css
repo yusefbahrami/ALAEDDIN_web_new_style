@@ -11,8 +11,12 @@
 .skill-description {
   border-radius: 2rem;
   box-shadow: 0 0 0.2rem #da0037;
+  transition: box-shadow 0.3s;
   width: 100%;
   height: 20rem;
+}
+.skill-description:hover {
+  box-shadow: 0 0 0.5rem #da0037;
 }
 .skill-route {
   color: #ededed;
@@ -58,6 +62,9 @@
 /* light */
 .main.light .skill-description {
   box-shadow: 0 0 0.2rem #42c2ff;
+}
+.main.light .skill-description:hover {
+  box-shadow: 0 0 0.5rem #42c2ff;
 }
 .main.light .skill-route,
 .main.light .skill-description-title .uil {
