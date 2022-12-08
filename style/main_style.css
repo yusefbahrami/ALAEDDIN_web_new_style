@@ -1,6 +1,7 @@
 @import url("./bottom_navbar.css");
 @import url("./header_countainer.css");
 @import url("./content_style.css");
+@import url("./skills_content_style.css");
 
 * {
   margin: 0;
