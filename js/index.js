@@ -1,4 +1,4 @@
-import setImages from "./logo_and_background_loader.js";
+import setImages from "./logoLoader_RouteSetter.js";
 import setDarkLight from "./setDarkLight.js";
 
 const darkLight = document.getElementById("dark-light");

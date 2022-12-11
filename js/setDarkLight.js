@@ -1,4 +1,4 @@
-import setImages from "./logo_and_background_loader.js";
+import setImages from "./logoLoader_RouteSetter.js";
 
 const setDarkLight = (e) => {
   e.preventDefault();
