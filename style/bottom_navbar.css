@@ -31,11 +31,21 @@
   border-radius: 50%;
   padding: 5px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-bar .nav-item a:hover {
   color: #da0037;
 }
+
+.nav-bar .nav-item a .user-profile {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
 .nav-bar .nav-item span {
   display: none;
 }
@@ -46,10 +56,10 @@
   box-shadow: 0 0 0.2rem #42c2ff;
 }
 
-.main.light .nav-bar .nav-item a{
-  color: #85F4FF;
+.main.light .nav-bar .nav-item a {
+  color: #85f4ff;
 }
-.main.light .nav-bar .nav-item a:hover{
+.main.light .nav-bar .nav-item a:hover {
   color: #42c2ff;
 }
 /* End Light */
@@ -59,7 +69,7 @@
     width: 864px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .nav-countainer {
     bottom: 0;
   }
