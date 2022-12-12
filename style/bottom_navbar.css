@@ -44,6 +44,10 @@
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
+  transition: box-shadow 0.3s;
+}
+.nav-bar .nav-item a .user-profile:hover {
+  box-shadow: 0 0 0.2rem #da0037;
 }
 
 .nav-bar .nav-item span {
@@ -61,6 +65,9 @@
 }
 .main.light .nav-bar .nav-item a:hover {
   color: #42c2ff;
+}
+.main.light .nav-bar .nav-item a .user-profile:hover {
+  box-shadow: 0 0 0.2rem #42c2ff;
 }
 /* End Light */
 
