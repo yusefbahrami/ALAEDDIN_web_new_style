@@ -5,24 +5,83 @@
   background-color: #da0037;
   padding: 1rem;
   padding-bottom: 5rem;
+  border-radius: 2rem 2rem 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
+.footer-countainer * {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.footer-countainer .footer-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+.footer-countainer .footer-content .footer-content-logo {
+  width: 10rem;
+  height: 10rem;
+  justify-self: center;
+}
+.footer-countainer .footer-content .footer-content-logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: box-shadow 0.3s;
+}
+.footer-countainer .footer-content .footer-content-logo img:hover {
+  box-shadow: 0 0 1rem #171717;
+}
+
+.footer-countainer .footer-content .footer-content-links {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+.footer-countainer .footer-content .footer-content-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  list-style-type: none;
+}
+.footer-countainer .footer-content .footer-content-links div {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 300;
+}
+
+.footer-countainer .footer-content .footer-content-links ul li a {
+  text-decoration: none;
+  color: #effffd;
+  transition: all 0.3s;
+}
+.footer-countainer .footer-content .footer-content-links ul li a:hover {
+  color: #171717;
+  border-bottom: 2px solid #171717;
+}
+
 .footer-countainer .footer-content-footer_section {
   width: 100%;
   text-align: left;
 }
+
 .footer-countainer .footer-content-footer_section * {
   color: #effffd;
-  /* color: #171717; */
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
 /* light */
+.main.light .footer-countainer .footer-content .footer-content-logo img:hover {
+  box-shadow: 0 0 1rem #b8fff9;
+}
+
 .main.light .footer-countainer {
   background-color: #42c2ff;
 }
@@ -30,3 +89,10 @@
   color: #b8fff9;
 }
 /* End Light */
+
+@media screen and (max-width: 425px) {
+  .footer-countainer .footer-content .footer-content-links {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
