@@ -2,6 +2,7 @@
 @import url("./header_countainer.css");
 @import url("./content_style.css");
 @import url("./skills_content_style.css");
+@import url("./footer_countainer.css");
 
 * {
   margin: 0;
