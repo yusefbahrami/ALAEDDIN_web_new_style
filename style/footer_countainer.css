@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap");
+
+.footer-countainer {
+  width: 100%;
+  background-color: #da0037;
+  padding: 1rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-countainer .footer-content-footer_section {
+  width: 100%;
+  text-align: left;
+}
+.footer-countainer .footer-content-footer_section * {
+  color: #effffd;
+  /* color: #171717; */
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* light */
+.main.light .footer-countainer {
+  background-color: #42c2ff;
+}
+.main.light .footer-countainer .footer-content-footer_section * {
+  color: #b8fff9;
+}
+/* End Light */
