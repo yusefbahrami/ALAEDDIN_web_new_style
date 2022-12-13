@@ -95,4 +95,18 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
   }
+  .footer-countainer .footer-content .footer-content-logo {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+@media screen and (max-width: 325px) {
+  .footer-countainer .footer-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .footer-countainer .footer-content .footer-content-logo {
+    width: 10rem;
+    height: 10rem;
+  }
 }
